@@ -52,7 +52,7 @@ body {
 #side-navbar ul li {
     width: 100%;
     list-style: none;
-    padding: 10px 20px;
+    margin: 10px 0;
 }
 
 #side-navbar ul li a {
@@ -62,6 +62,7 @@ body {
     font-size: 20px;
     display: flex;
     align-items: center;
+    padding: 10px 20px;
 }
 
 #side-navbar ul li a i {
@@ -264,4 +265,16 @@ body {
     border-radius: 10px;
     padding: 5px 10px;
     color: white;
+}
+
+#side-navbar ul .navlink .active {
+    background-color: white;
+    border-radius: 50px 0 0 50px;
+    color: #10111c;
+}
+
+#side-navbar ul .navlink a:hover {
+    background-color: white;
+    border-radius: 50px 0 0 50px;
+    color: #10111c;
 }
