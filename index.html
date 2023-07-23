@@ -11,7 +11,7 @@
 
 <body>
     <aside id="side-navbar">
-        <h1><i class='bx bx-code-alt'></i>End Dev</h1>
+        <h1><i class='bx bx-code-alt'></i><span>End Dev</span></h1>
         <ul>
             <li class="navlink active"><a href="#">
                     <i class='bx bxs-dashboard'></i>
@@ -45,7 +45,7 @@
                     <i class='bx bx-cog'></i>
                     <span>Settings</span>
                 </a></li>
-            <li class="navlink"><a href="#">
+            <li class="navlink loginout"><a href="#">
                     <span>Login Out</span>
                     <i class='bx bx-log-out'></i>
                 </a></li>
@@ -53,10 +53,10 @@
     </aside>
     <main id="main-dashboard">
         <div class="dashboard-navbar">
-            <i class='bx bx-menu'></i>
+            <i id="menu-icon" class='bx bx-menu'></i>
             <div class="search">
                 <i class='bx bx-search-alt-2'></i>
-                <input type="search">
+                <input type="search" placeholder="Search">
             </div>
             <img src="./img/avatar.png" alt="avatar">
         </div>
@@ -66,29 +66,29 @@
                     <div>
                         <h1>9.99</h1>
                         <i class='bx bx-cart-alt'></i>
-                        <p>Total Orders</p>
                     </div>
+                    <p>Total Orders</p>
                 </div>
                 <div class="card">
                     <div>
                         <h1>15.9</h1>
                         <i class='bx bxs-cart-add'></i>
-                        <p>Total Sales</p>
                     </div>
+                    <p>Total Sales</p>
                 </div>
                 <div class="card">
                     <div>
                         <h1>30.20</h1>
                         <i class='bx bx-cart'></i>
-                        <p>Total Projects</p>
                     </div>
+                    <p>Total Projects</p>
                 </div>
                 <div class="card">
                     <div>
                         <h1>50.9</h1>
                         <i class='bx bxs-cart-download'></i>
-                        <p>Total Returns</p>
                     </div>
+                    <p>Total Returns</p>
                 </div>
             </div>
             <div class="bottom-cards">
@@ -107,7 +107,7 @@
                             <tr>
                                 <td>Dropbox Design System</td>
                                 <td>34</td>
-                                <td>Medium</td>s
+                                <td><span class="medium">Medium</span></td>
                                 <td>
                                     <div class="members-avatars">
                                         <img class="thumnails" src="./img/user1.jpg" alt="thumnails">
@@ -121,7 +121,7 @@
                             <tr>
                                 <td>Slack Team UI Design</td>
                                 <td>47</td>
-                                <td>High</td>
+                                <td><span class="high">High</span></td>
                                 <td>
                                     <div class="members-avatars">
                                         <img class="thumnails" src="./img/user4.jpg" alt="thumnails">
@@ -135,7 +135,7 @@
                             <tr>
                                 <td>Github Satellite</td>
                                 <td>120</td>
-                                <td>Low</td>
+                                <td><span class="low">Low</span></td>
                                 <td>
                                     <div class="members-avatars">
                                         <img class="thumnails" src="./img/user2.jpg" alt="thumnails">
@@ -149,7 +149,7 @@
                             <tr>
                                 <td>E-commerce App</td>
                                 <td>52</td>
-                                <td>Medium</td>
+                                <td><span class="medium">Medium</span></td>
                                 <td>
                                     <div class="members-avatars">
                                         <img class="thumnails" src="./img/user3.jpg" alt="thumnails">
